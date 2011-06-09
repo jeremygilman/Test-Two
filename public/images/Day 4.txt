@@ -1,0 +1,8 @@
+Having a problem with the root or home page-I have set it so that my root page is set to home.html.erb but when i go there online it does not show my homepage and instead shows the basic one that I deleted at the beginning of the project.  When I checked the route paths the root does go to the home page and the home.html.erb file has the correct html code in it.  
+
+When I click the image to take me back to the root page it takes me to the root url but shows the old homepage that I deleted and it is deleted after I checked for it again
+
+If you type http://localhost:3000/# then it will take you to my home page but this still leaves the problem of when you click on the home link in any other page
+
+Put the root route at the bottom after all of the other routes and it worked-also works if you move the root route back up to the top
+
