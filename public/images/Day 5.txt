@@ -1,2 +1,13 @@
 Day 5
 
+ Had problem with exercise 1 at the end of chapter 8
+	figured out that I was putting field='field' (email='[email]') instead of name='field'
+	
+ In section 10 figured out that one Listing 10.34 was wrong-before statement should look like this
+		before(:each) do
+		  @user = Factory(:user)
+		end
+ This will solve many problems and looks just like the statements in all of the other functions
+
+
+  
