@@ -6,3 +6,4 @@ If you type http://localhost:3000/# then it will take you to my home page but th
 
 Put the root route at the bottom after all of the other routes and it worked-also works if you move the root route back up to the top
 
+BIG(1) = big(0).upcase
