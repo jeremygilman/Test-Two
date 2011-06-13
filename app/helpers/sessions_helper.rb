@@ -26,6 +26,10 @@ module SessionsHelper
     user == current_user
   end
   
+  def authenticate
+    deny_access unless signed_in?
+  end
+  
   # Same code as: 
   # store_location
   # flash[:notice] = "Please sign in to access this page."
