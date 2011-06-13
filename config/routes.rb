@@ -1,7 +1,9 @@
   TestTwo::Application.routes.draw do
   get "sessions/new"
 
-    resources :users
+    resources :users do
+      resources :microposts, :only => [:index, :create, :destroy]
+    end
     resources :sessions,   :only => [:new, :create, :destroy]
     resources :microposts, :only => [:create, :destroy]
     
